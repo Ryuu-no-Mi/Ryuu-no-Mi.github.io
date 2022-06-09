@@ -1,0 +1,34 @@
+/* width: 1024px; */
+
+@media screen and (max-width: 1279px) and (min-width: 769px) {
+  header .space-between {
+    justify-content: center;
+    flex-flow: column nowrap;
+  }
+
+  .content-main-top > .slider {
+    max-width: 600px;
+  }
+
+  aside .aside-event {
+    margin: 30px 0;
+    padding: 20px 15px;
+  }
+
+  .aside-event > h3 {
+    font-size: 1.12rem;
+  }
+
+  aside .aside-event picture {
+    max-width: 80%;
+  }
+
+  a .btn-aside {
+    padding: 6px 18px;
+    letter-spacing: 0.5px;
+  }
+
+  .box > .img-content > img {
+    max-width: 50%;
+  }
+}

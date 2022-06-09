@@ -1,0 +1,74 @@
+/* width: 768px; */
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 0.8em;
+  }
+
+  a {
+    font-size: 0.9rem;
+    padding: 5px 5px;
+  }
+
+  header .btn-svg {
+    width: 2rem;
+    height: 2rem;
+    color: #ffffff;
+  }
+
+  header .ul {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  header .nav-bar {
+    width: 100%;
+    /* display: none; */
+    height: 0;
+    pointer-events: none;
+    overflow: hidden;
+    transition: all 0.5s ease;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .nav-bar.activo {
+    /* display: block; */
+    height: 50vh;
+    pointer-events: auto;
+  }
+
+  header button.btn {
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 20px;
+  }
+
+  header .item-li {
+    margin: 1rem 0;
+  }
+  .content-main-top > .slider {
+    max-width: 80%;
+  }
+
+  .slider > .slider_container {
+    gap: 0.5rem;
+  }
+
+  .slider .slider_arrow {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .slider_lorem {
+    padding-left: 0;
+  }
+
+  article .box {
+    margin: 30px 15px;
+  }
+}

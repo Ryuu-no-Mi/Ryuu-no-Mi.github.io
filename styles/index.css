@@ -1,0 +1,6 @@
+@import url(./normalize.css);
+@import url(./mediaquerys/tablet-mediaquery.css);
+@import url(./mediaquerys/mobil-mediaquery.css);
+@import url(./main.css);
+@import url(./slider.css);
+@import url(./footer.css);

@@ -1,0 +1,19 @@
+footer {
+  background-color: var(--green);
+}
+
+.social-links ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  padding: 0;
+}
+
+.social-links > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.footer-head {
+  padding: 10px 5px;
+}
